@@ -43,15 +43,15 @@ section {
   flex-direction: row;
   border-radius: 100px;
   padding: 10px;
-  background-color: #0c0c0c;
+  background-color: mediumpurple ;
   /*    border: 3px solid #6416df;*/
 }
 
 .nav-item {
   flex: 1;
   text-align: center;
-  background-color: #0c0c0c;
-  color: gray;
+  background-color: mediumpurple;
+  color: white;
   font-weight: bold;
   font-family: "Segoe UI";
 }
@@ -175,13 +175,32 @@ section {
   color: white;
   max-width: 30vw;
   width: 30vw;
-  background-color: #8061ac;
+  min-height: 40vh;
+  background: #882a9b;
+  background: radial-gradient(circle, rgba(136, 42, 155, 1) 0%, rgba(81, 10, 107, 1) 100%, rgba(198, 83, 237, 1) 100%);
   text-align: center;
+  border-radius: 15px;
+  transition: transform 1s ease, clip-path 1s ease;
 }
 
-.gruppemedlemmer-bilde{
-  max-width: 12vw;
+
+
+.gruppemedlemmer-bilde {
+  max-width: 10vw;
   height: auto;
+  position: relative;
+  clip-path: circle();
+}
+
+.gruppemedlemmer:hover {
+  transform: scale(1.2);
+  z-index: 10;
+}
+
+
+.gruppemedlemmer-text-om-hver-person{
+  margin-left: 1vh;
+  margin-right: 1vh;
 }
 
 .section3-innhold{
@@ -189,7 +208,10 @@ section {
 }
 
 
-
+.medlemmer-link{
+  text-decoration: none;
+  color: white;
+}
 
 
 
@@ -220,6 +242,9 @@ section {
   }
   .nav-bar{
     min-width: 300px;
+  }
+  .gruppemedlemmer-flex1{
+    
   }
   
 }
