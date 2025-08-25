@@ -1,11 +1,112 @@
+.body{
+    height: 150%;
+}
 .Overskrift{
     color: white;
     margin-top: 5rem;
+    text-align: center;
 }
 
 .Mathias-innhold{
-padding-top: 1vh;
+    padding-top: 1vh;
+}
+
+.Mathias-innhold-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.Mathias-ferdigheter-liste li, 
+.Mathias-prosjekter-liste li{
+    color: white;
+    text-align: left;
+}
+.Mathias-ferdigheter-liste {
+    margin-left: 6vw;
+}
+
+
+
+
+.Mathias-flexitem{
+    flex: 1;
 }
 .hjemknapp{
     text-decoration: none;
+}
+
+.Mathias-innhold-bilde{
+    max-width:40vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}.Mathias-innhold-info{
+    text-align: center;
+    color: white;
+ }
+ 
+
+.rainbow-animated-text{
+     text-align: center;
+    font-size: 10vh;
+    /* Set a transparent color for the text itself, allowing the background to show */
+    color: transparent;
+    /* Apply the linear gradient as a background */
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red); /* Repeat red to create a seamless loop */
+    /* Clip the background to the text shape */
+    -webkit-background-clip: text; /* For WebKit browsers */
+    background-clip: text;
+    /* Set a large background size to allow for animation */
+    background-size: 200% auto; /* Adjust as needed for desired animation length */
+    /* Apply the animation */
+    animation: rainbow-animation 5s linear infinite; /* Adjust duration and timing as needed */
+    padding-top: 0;
+    margin-top:0;
+    
+    
+}
+
+@keyframes rainbow-animation {
+    from {
+        background-position: 0% center; /* Start position of the background */
+    }
+    to {
+        background-position: -200% center; /* End position to create a continuous loop */
+    }
+}
+
+@media (max-width: 768px){
+    .Mathias-innhold-flex{
+        flex-direction: column;
+    }
+    .rainbow-animated-text{
+        font-size: 4vw;
+    }
+    .Mathias-flexItem1{
+        order: 2;
+    }
+    .Mathias-flexItem2{
+        order: 1;
+    }
+    .Mathias-flexItem3{
+        order: 3;
+    }
+    .Mathias-ferdigheter-liste li,
+    .Mathias-prosjekter-liste li{
+        color: white;
+        list-style-position: inside; /* punktet følger teksten */
+        padding: 0;                  /* fjern standard padding */
+        margin: 0 30%;              /* auto på sidemarginer gir sentrering */
+        text-align: center;          /* sentrer teksten */
+        width: fit-content;          /* gjør at listen krymper rundt innholdet */
+        
+    }
+    .Mathias-prosjekter-liste{
+        margin-left: 6vw;
+    }
+   
+
 }
