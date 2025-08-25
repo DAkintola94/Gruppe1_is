@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="~/Gruppe1_Nettside.styles.css" />
     <link rel="stylesheet" href="/index.css" />
 </head>
+<body>
+<header></header>
+<div>
+<main>
+    
 
 <div class="nav-bar-container">
     <div class="blur"></div>
@@ -120,3 +125,19 @@
 <section>
 
 </section>
+</main>
+</div>
+
+<footer class="border-top footer text-muted">
+    <div class="container">
+        &copy; 2025 - Gruppe1_Nettside - <a asp-area="" asp-page="/Privacy">Privacy</a>
+    </div>
+</footer>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+
+@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
