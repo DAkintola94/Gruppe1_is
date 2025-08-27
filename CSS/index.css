@@ -176,7 +176,7 @@ section {
   color: white;
   max-width: 30vw;
   width: 30vw;
-  min-height: 40vh;
+  min-height: 35vh;
   background: #882a9b;
   background: radial-gradient(circle, rgba(136, 42, 155, 1) 0%, rgba(81, 10, 107, 1) 100%, rgba(198, 83, 237, 1) 100%);
   text-align: center;
@@ -200,6 +200,8 @@ section {
 .gruppemedlemmer-text-om-hver-person{
   margin-left: 1vh;
   margin-right: 1vh;
+  margin-bottom: 4px;
+  margin-top: 0;
 }
 
 .section3-innhold {

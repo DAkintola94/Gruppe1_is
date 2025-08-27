@@ -17,13 +17,37 @@
     justify-content: center;
     width: 100%;
 }
+.Mathias-ferdigheter{
+    background-color: mediumpurple;
+    border-radius: 10px;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    padding-bottom: 10px;
+}
 .Mathias-ferdigheter-liste li, 
 .Mathias-prosjekter-liste li{
     color: white;
     text-align: left;
 }
-.Mathias-ferdigheter-liste {
-    margin-left: 6vw;
+
+
+
+
+.Mathias-prosjekter-liste li {
+    padding: 10px;
+    background-color: mediumpurple;
+    border-radius: 10px;
+    list-style-type: none;
+    margin-bottom: 10px;
+    margin-right: 3vw;
+    
+}
+.Mathias-prosjekter-liste a{
+    text-decoration: none;   
+}
+.Mathias-prosjekter-liste li:hover{
+    opacity: 0.7;
+    cursor: pointer;
 }
 
 
@@ -94,19 +118,26 @@
     .Mathias-flexItem3{
         order: 3;
     }
-    .Mathias-ferdigheter-liste li,
+    .Mathias-ferdigheter-liste ul,
     .Mathias-prosjekter-liste li{
         color: white;
-        list-style-position: inside; /* punktet følger teksten */
-        padding: 0;                  /* fjern standard padding */
-        margin: 0 30%;              /* auto på sidemarginer gir sentrering */
-        text-align: center;          /* sentrer teksten */
-        width: fit-content;          /* gjør at listen krymper rundt innholdet */
-        
+    }
+    .Mathias-ferdigheter{
+        margin-left: 6vw;
+        margin-right:6vw
     }
     .Mathias-prosjekter-liste{
         margin-left: 6vw;
+        margin-right: 6vw; 
+        padding:0;
     }
+    .Mathias-prosjekter-liste a li{
+        text-align: center;
+        margin-right: 0;
+        
+        
+    }
+    
    
 
 }
