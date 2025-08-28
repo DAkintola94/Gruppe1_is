@@ -58,7 +58,8 @@ section {
 }
 
 .nav-item.active {
-  background-color: #e5c806;
+  background-color: #e5c70663;
+  color: #e5c806;
 }
 
 
@@ -99,7 +100,7 @@ section {
   align-items: start;
   height: 100vh;
   column-width: 100vw;
-  background-color: white;
+  background-color: #f6f7f9;
   margin-bottom: 0;
 }
 
@@ -126,7 +127,8 @@ section {
 .om-gruppa-del {
   margin: 2%;
   margin-top: 0%;
-  background-color: ;
+  background-color: white;
+  border-radius: 20px;
   font-family: "Work Sans", sans-serif;
   flex: 2;
   height: 100%;
