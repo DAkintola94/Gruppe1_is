@@ -42,22 +42,28 @@ section {
   align-items: center;
   flex-direction: row;
   border-radius: 100px;
-  padding: 10px;
-  background-color: mediumpurple ;
+  background-color: #292929 ;
   /*    border: 3px solid #6416df;*/
 }
 
 .nav-item {
   flex: 1;
   text-align: center;
-  background-color: mediumpurple;
+  background-color: #292929;
+  padding: 10px;
   color: white;
   font-weight: bold;
   font-family: "Segoe UI";
+  border-radius: 100px;
 }
 
+.nav-item.active {
+  background-color: #6316df;
+}
+
+
 .nav-item:hover {
-  color: #6416df;
+  color: white;
 }
 
 .radial-circle {
@@ -204,6 +210,7 @@ section {
 
 .section3-innhold {
   margin-top: 10vh;
+  height: 90vh;
 }
 
 #titleName_Id {
