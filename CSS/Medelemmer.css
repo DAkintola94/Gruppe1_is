@@ -1,0 +1,71 @@
+.html{
+    background-color: #FDFD96;
+}
+.hjemknapp{
+    text-decoration: none;
+}
+.nav-item:hover{
+    background-color: #e5c806;
+    opacity: 0.8;
+   
+}
+
+.person-innhold-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    width: 100vw;
+}
+
+.medlemmer-flexitem{
+    height: 80vh;
+}
+
+.medlemmer-flexitem2{
+    background-color: ghostwhite;
+    width: 100vw;
+    
+}
+
+.medlemmer-flexitem1{
+    background-color: #FDFD96;
+    width: 100vw;
+
+}
+.ditt-navn{
+    margin-top: 50vh;
+    text-align: center;
+    }
+
+
+.medlemmer-side-bilde{
+    width: 80%; 
+    height: auto;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.medlemmer-om-meg{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    
+}
+.medlemmer-om-meg-bilde{
+    width: 50%;
+}
+
+.medlemmer-ferdigheter-overall{
+    width: 50%;
+}
+.medlemmer-ferdigheter-overskrift{
+    padding-left:20px
+    
+}
+
+.medlemmer-ferdigheter{
+    padding-right: 40px;
+}
+
