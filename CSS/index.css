@@ -44,12 +44,12 @@ section {
   flex: 1;
   display: flex;
   width: 25vw;
-  min-width: 500px;
   justify-content: center;
   align-items: center;
   flex-direction: row;
   border-radius: 100px;
   background-color: black ;
+  overflow: hidden;
 }
 
 .nav-item {
