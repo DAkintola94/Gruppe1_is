@@ -50,7 +50,6 @@ section {
   flex-direction: row;
   border-radius: 100px;
   background-color: black ;
-  /*    border: 3px solid #6416df;*/
 }
 
 .nav-item {
@@ -62,6 +61,7 @@ section {
   font-weight: bold;
   font-family: "Segoe UI";
   border-radius: 100px;
+  cursor: pointer;
 }
 
 .nav-item.active {
@@ -71,7 +71,7 @@ section {
 
 
 .nav-item:hover {
-  color: white;
+  color: #e5c806;
 }
 
 .radial-circle {
@@ -129,6 +129,7 @@ section {
 .overskrifter h1 {
   font-weight: 700;
   font-size: 75px;
+  margin: 0;
 }
 
 .om-gruppa-del {
@@ -137,7 +138,7 @@ section {
   background-color: white;
   border-radius: 20px;
   font-family: "Work Sans", sans-serif;
-  flex: 2;
+  flex: 3;
   height: 100%;
   width: 96%;
   display: flex;
@@ -165,6 +166,8 @@ section {
   flex-direction: column;
   height: 100vh;
   column-width: 100vw;
+  background-color: #f6f7f9;
+
 }
 
 .gruppemedlemmer-flex1 {
@@ -187,12 +190,10 @@ section {
   gap: 5vw;
 }
 .gruppemedlemmer {
-  color: white;
   max-width: 30vw;
   width: 30vw;
   min-height: 35vh;
-  background: #882a9b;
-  background: radial-gradient(circle, rgba(136, 42, 155, 1) 0%, rgba(81, 10, 107, 1) 100%, rgba(198, 83, 237, 1) 100%);
+  background: white;
   text-align: center;
   border-radius: 15px;
   transition: transform 1s ease, clip-path 1s ease;
@@ -224,7 +225,7 @@ section {
 }
 
 #titleName_Id {
-  //font-weight: bold;
+  font-weight: bold;
 }
 
 .medlemmer-link{
