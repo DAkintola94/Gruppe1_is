@@ -10,6 +10,21 @@ html {
   }
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  background: #00000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2e2e2e;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2e2e2e;
+}
+
+
 .btn:focus,
 .btn:active:focus,
 .btn-link.nav-link:focus,
@@ -23,10 +38,13 @@ html {
   min-height: 100%;
   overflow-x: hidden;
   scroll-snap-type: y mandatory;
+  overflow-y: scroll;
 }
 
 body{
   margin-left:0;
+  scrollbar-width: thin;
+  scrollbar-color: #2e2e2e #00000000;
 }
 
 .form-floating > .form-control-plaintext::placeholder,
