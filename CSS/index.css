@@ -69,10 +69,6 @@ section {
   cursor: pointer;
 }
 
-.nav-item.active {
-  background-color: #e5c70663;
-  color: #e5c806;
-}
 
 
 .nav-item:hover {
@@ -235,7 +231,7 @@ section {
 
 .medlemmer-link{
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 

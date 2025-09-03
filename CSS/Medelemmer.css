@@ -1,6 +1,10 @@
 .html{
     background-color: #FDFD96;
 }
+
+body{
+    background-color: #FDFD96;
+}
 .hjemknapp{
     text-decoration: none;
 }
@@ -9,6 +13,10 @@
     opacity: 0.8;
    
 }
+.nav-bar{
+    background-color: black;
+}
+
 
 .person-innhold-flex{
     display: flex;
@@ -37,6 +45,7 @@
 .ditt-navn{
     margin-top: 50vh;
     text-align: center;
+    font-size: 15vw;
     }
 
 
@@ -45,6 +54,7 @@
     height: auto;
     padding-left: 20px;
     padding-top: 20px;
+    border-radius: 10px;
 }
 
 .medlemmer-om-meg{
@@ -59,6 +69,8 @@
 
 .medlemmer-ferdigheter-overall{
     width: 50%;
+    display: flex;
+    flex-direction: column;
 }
 .medlemmer-ferdigheter-overskrift{
     padding-left:20px
@@ -67,5 +79,37 @@
 
 .medlemmer-ferdigheter{
     padding-right: 40px;
+    list-style: none;
+    
+}
+.medlemmer-ferdigheter li::before{
+    content:"💪";
+    font-size: 2vw;
+}
+.medlemmer-ferdigheter li{
+    padding: 5px;
+}
+
+.Linker{
+    Width: 10vw;
+    height: auto;
+    padding: 15px;
+    
+}
+
+.link-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.om-meg p{
+    word-wrap: break-word;
+    white-space: normal;
+    max-width: 80%;
+}
+.medlemmer-flexitem1 h1{
+    text-align: center;
 }
 
