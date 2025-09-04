@@ -1,0 +1,117 @@
+section {
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+#aaron-section1 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  column-width: 100vw;
+  background-color: white;
+  overflow: hidden;
+}
+#aaron-overskrift {
+  position: relative;
+  color: black;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 800;
+  font-size: 180px;
+  letter-spacing: 0.3em;
+  font-stretch: expanded;
+  top: -57vh;
+}
+
+#aaron-skulptur {
+  position: absolute;
+  width: 37%;
+  height: auto;
+  top: 20vh;
+  z-index: 1;  
+}
+
+
+.aaron-section-container{
+    margin: 10%;
+    padding-top: 12vh;
+    height: 84%;
+    width: 80%;
+    display: flex;
+    gap: 5%;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+}
+
+#aaron-section2-overskrift{
+    flex: 1;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin: 0;
+    color: black;
+}
+
+#aaron-section2-innhold{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+#aaron-section2-bilde-container{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#aaron-section2-bilde{
+    width: 100%;
+    background-color: #b4b9b3;
+
+}
+
+#aaron-section2-om-meg{
+    flex-direction: 1;
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+#aaron-section2-om-meg-overskrift{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 1vh;
+}
+
+#aaron-section2-om-meg-p{
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    color: #888888;
+    margin: 0;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+#aaron-section3 {
+    background-color: white;
+    color: black;
+    height: 100%;
+    width: 100%;
+}
+
+
