@@ -5,7 +5,7 @@ section {
   scroll-snap-stop: always;
 }
 
-#fredrik-section1 {
+#dennis-section1 {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -16,7 +16,7 @@ section {
   background-color: white;
   overflow: hidden;
 }
-#fredrik-overskrift {
+#dennis-overskrift {
   position: relative;
   color: black;
   font-family: "Work Sans", sans-serif;
@@ -24,10 +24,10 @@ section {
   font-size: 180px;
   letter-spacing: 0.3em;
   font-stretch: expanded;
-  top: -57vh;
+  top: -60vh;
 }
 
-#fredrik-skulptur {
+#dennis-skulptur {
   position: absolute;
   width: 37%;
   height: auto;
@@ -35,7 +35,7 @@ section {
   z-index: 1;
 }
 
-.fredrik-section-container {
+.dennis-section-container {
   margin: 10%;
   padding-top: 12vh;
   height: 84%;
@@ -47,7 +47,7 @@ section {
   justify-content: start;
 }
 
-#fredrik-section2-overskrift {
+#dennis-section2-overskrift {
   flex: 1;
   font-family: "Work Sans", sans-serif;
   font-weight: 700;
@@ -56,7 +56,7 @@ section {
   color: black;
 }
 
-#fredrik-section2-innhold {
+#dennis-section2-innhold {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -64,7 +64,7 @@ section {
   justify-content: start;
 }
 
-#fredrik-section2-bilde-container {
+#dennis-section2-bilde-container {
   flex: 1;
   display: flex;
   align-items: center;
@@ -75,12 +75,12 @@ section {
   overflow: hidden;
 }
 
-#fredrik-section2-bilde {
+#dennis-section2-bilde {
   width: 100%;
   background-color: #b4b9b3;
 }
 
-#fredrik-section2-om-meg {
+#dennis-section2-om-meg {
   flex-direction: 1;
   font-family: "Work Sans", sans-serif;
   font-size: 20px;
@@ -88,7 +88,7 @@ section {
   width: 100%;
 }
 
-#fredrik-section2-om-meg-overskrift {
+#dennis-section2-om-meg-overskrift {
   font-family: "Work Sans", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -96,7 +96,7 @@ section {
   margin-bottom: 1vh;
 }
 
-#fredrik-section2-om-meg-p {
+#dennis-section2-om-meg-p {
   font-family: "Work Sans", sans-serif;
   font-size: 16px;
   color: #888888;
@@ -105,9 +105,19 @@ section {
   text-align: justify;
 }
 
-#fredrik-section3 {
+#dennis-section3 {
   background-color: black;
   color: white;
   height: 100vh;
   width: 100vw;
+}
+
+#linkedin_svg {
+  height: 15vh;
+  width: 12vh;
+}
+
+#github_svg {
+  height: 15vh;
+  width: 9.5vh;
 }
