@@ -1,12 +1,12 @@
 html {
   scroll-behavior: smooth;
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 body {
   background-color: white;
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -53,7 +53,7 @@ section {
   align-items: center;
   flex-direction: row;
   border-radius: 100px;
-  background-color: black ;
+  background-color: black;
   overflow: hidden;
 }
 
@@ -68,8 +68,6 @@ section {
   border-radius: 100px;
   cursor: pointer;
 }
-
-
 
 .nav-item:hover {
   color: #e5c806;
@@ -168,7 +166,6 @@ section {
   height: 100vh;
   column-width: 100vw;
   background-color: #f6f7f9;
-
 }
 
 .gruppemedlemmer-flex1 {
@@ -212,12 +209,12 @@ section {
   z-index: 10;
 }
 
-
-.gruppemedlemmer-text-om-hver-person{
+.gruppemedlemmer-text-om-hver-person {
   margin-left: 1vh;
   margin-right: 1vh;
   margin-bottom: 4px;
   margin-top: 0;
+  color: black;
 }
 
 .section3-innhold {
@@ -229,11 +226,10 @@ section {
   font-weight: bold;
 }
 
-.medlemmer-link{
+.medlemmer-link {
   text-decoration: none;
   color: black;
 }
-
 
 @media (max-width: 1000px) {
   .stor-overskrift {
