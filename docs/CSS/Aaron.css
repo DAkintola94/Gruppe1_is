@@ -16,6 +16,7 @@ section {
   background-color: white;
   overflow: hidden;
 }
+
 #aaron-overskrift {
   position: relative;
   color: black;
@@ -25,6 +26,14 @@ section {
   letter-spacing: 0.3em;
   font-stretch: expanded;
   top: -57vh;
+}
+
+@media (max-width: 768px) {
+  #aaron-overskrift {
+    font-size: 48px;
+    top: -10vh;
+    letter-spacing: 0.1em;
+  }
 }
 
 #aaron-skulptur {
@@ -69,8 +78,8 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
   border-radius: 20px;
   overflow: hidden;
 }

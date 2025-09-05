@@ -27,6 +27,14 @@ section {
   top: -57vh;
 }
 
+@media (max-width: 768px) {
+  #fredrik-overskrift {
+    font-size: 48px;
+    top: -10vh;
+    letter-spacing: 0.1em;
+  }
+}
+
 #fredrik-skulptur {
   position: absolute;
   width: 37%;
@@ -69,8 +77,8 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
   border-radius: 20px;
   overflow: hidden;
 }
