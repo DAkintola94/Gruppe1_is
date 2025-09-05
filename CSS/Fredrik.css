@@ -114,4 +114,23 @@ section {
     width: 100vw;
 }
 
+#fredrik-section3-container{
+    margin: 10%;
+    padding-top: 12vh;
+    height: 84%;
+    width: 80%;
+    display: flex;
+    gap: 5%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+#fredrik-section3-overskrift{
+    flex: 1;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 800;
+    font-size: 100px;
+    letter-spacing: 0.2em;
+}
 
