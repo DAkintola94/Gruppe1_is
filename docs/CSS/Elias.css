@@ -32,88 +32,83 @@ section {
   width: 37%;
   height: auto;
   top: 20vh;
-  z-index: 1;  
+  z-index: 1;
 }
 
-.elias-section-container{
-    margin: 10%;
-    padding-top: 12vh;
-    height: 84%;
-    width: 80%;
-    display: flex;
-    gap: 5%;
-    flex-direction: row;
-    align-items: start;
-    justify-content: start;
+.elias-section-container {
+  margin: 10%;
+  padding-top: 12vh;
+  height: 84%;
+  width: 80%;
+  display: flex;
+  gap: 5%;
+  flex-direction: row;
+  align-items: start;
+  justify-content: start;
 }
 
-#elias-section2-overskrift{
-    flex: 1;
-    font-family: "Work Sans", sans-serif;
-    font-weight: 700;
-    font-size: 50px;
-    margin: 0;
-    color: black;
+#elias-section2-overskrift {
+  flex: 1;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  margin: 0;
+  color: black;
 }
 
-#elias-section2-innhold{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: start;
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 1.5;
+#elias-section2-innhold {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
 }
 
-#elias-section2-bilde-container{
-   flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-    overflow: hidden;
+#elias-section2-bilde-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
-#elias-section2-bilde{
-    width: 100%;
-    background-color: #b4b9b3;
-
+#elias-section2-bilde {
+  width: 100%;
+  background-color: #b4b9b3;
 }
 
-#elias-section2-om-meg{
-    flex-direction: 1;
-    font-family: "Work Sans", sans-serif;
-    font-size: 20px;
-    height: 100%;
-    width: 100%;
+#elias-section2-om-meg {
+  flex-direction: 1;
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  height: 100%;
+  width: 100%;
 }
 
-#elias-section2-om-meg-overskrift{
-    font-family: "Work Sans", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    margin: 0;
-    margin-bottom: 1vh;
+#elias-section2-om-meg-overskrift {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 1vh;
 }
 
-#elias-section2-om-meg-p{
-    font-family: "Work Sans", sans-serif;
-    font-size: 16px;
-    color: #888888;
-    margin: 0;
-    line-height: 1.5;
-    text-align: justify;
+#elias-section2-om-meg-p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  line-height: 1.5;
+  text-align: justify;
 }
 
-#elias-section3{
-    background-color: black;
-    color: white;
-    height: 100vh;
-    width: 100vw;
+#elias-section3 {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  width: 100vw;
 }
 
 #linkedin_svg {
