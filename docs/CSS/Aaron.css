@@ -90,11 +90,6 @@ section {
 }
 
 @media (max-width: 768px) {
-  //prevent annoying scroll block on mobile, let user be able to actually click on the icons we created.
-  html,
-  body {
-    scroll-snap-type: none !important;
-  }
   section {
     scroll-snap-align: unset !important;
     scroll-snap-stop: unset !important;
@@ -102,9 +97,9 @@ section {
 }
 
 @media (max-width: 768px) {
-  //Removing the container for the image, so paragraph fill the entire section on mobile
+  /* prevent annoying scroll block on mobile, let user be able to actually click on the icons we created. */
   #aaron-section2-bilde-container {
-    display: none;
+    display: none !important;
   }
 }
 

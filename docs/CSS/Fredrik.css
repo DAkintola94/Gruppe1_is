@@ -101,7 +101,7 @@ section {
 }
 
 @media (max-width: 768px) {
-  //Removing the container for the image, so paragraph fill the entire section on mobile
+  /* prevent annoying scroll block on mobile, let user be able to actually click on the icons we created. */
   #fredrik-section2-bilde-container {
     display: none;
   }
