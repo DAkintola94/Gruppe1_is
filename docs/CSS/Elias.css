@@ -96,6 +96,7 @@ section {
 }
 
 @media (max-width: 768px) {
+  //Removing the container for the image, so paragraph fill the entire section on mobile
   #elias-section2-bilde-container {
     display: none;
   }

@@ -101,7 +101,8 @@ section {
 }
 
 @media (max-width: 768px) {
-  #fredrik-section2-bilde {
+  //Removing the container for the image, so paragraph fill the entire section on mobile
+  #fredrik-section2-bilde-container {
     display: none;
   }
 }
