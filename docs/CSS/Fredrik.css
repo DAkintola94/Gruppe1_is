@@ -88,6 +88,12 @@ section {
   background-color: #b4b9b3;
 }
 
+@media (max-width: 768px) {
+  #fredrik-section2-bilde {
+    display: none;
+  }
+}
+
 #fredrik-section2-om-meg {
   flex-direction: 1;
   font-family: "Work Sans", sans-serif;

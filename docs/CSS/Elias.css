@@ -27,6 +27,14 @@ section {
   top: -57vh;
 }
 
+@media (max-width: 768px) {
+  #elias-overskrift {
+    font-size: 48px;
+    top: -10vh;
+    letter-spacing: 0.1em;
+  }
+}
+
 #elias-skulptur {
   position: absolute;
   width: 37%;

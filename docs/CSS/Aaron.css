@@ -78,8 +78,8 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
   border-radius: 20px;
   overflow: hidden;
 }
@@ -87,6 +87,12 @@ section {
 #aaron-section2-bilde {
   width: 100%;
   background-color: #b4b9b3;
+}
+
+@media (max-width: 768px) {
+  #aaron-section2-bilde {
+    display: none;
+  }
 }
 
 #aaron-section2-om-meg {
