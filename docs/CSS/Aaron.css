@@ -90,6 +90,18 @@ section {
 }
 
 @media (max-width: 768px) {
+  //prevent annoying scroll block on mobile, let user be able to actually click on the icons we created.
+  html,
+  body {
+    scroll-snap-type: none !important;
+  }
+  section {
+    scroll-snap-align: unset !important;
+    scroll-snap-stop: unset !important;
+  }
+}
+
+@media (max-width: 768px) {
   #aaron-section2-bilde {
     display: none;
   }

@@ -55,6 +55,18 @@ section {
   justify-content: start;
 }
 
+@media (max-width: 768px) {
+  //prevent annoying scroll block on mobile, let user be able to actually click on the icons we created.
+  html,
+  body {
+    scroll-snap-type: none !important;
+  }
+  section {
+    scroll-snap-align: unset !important;
+    scroll-snap-stop: unset !important;
+  }
+}
+
 #elias-section2-overskrift {
   flex: 1;
   font-family: "Work Sans", sans-serif;
