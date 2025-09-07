@@ -1,0 +1,37 @@
+.main_contact {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 35vh;
+  column-width: 100vw;
+  background-color: #e5f4e6;
+  overflow: hidden;
+}
+
+h3 {
+  color: #3e7344;
+  padding-top: 5vh;
+}
+
+.child_contact {
+  padding: 40px;
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  text-align: left;
+}
+
+#gmail_icon {
+  height: 20px;
+  weight: 20px;
+  margin-right: 10px;
+}
+
+#phone_icon {
+  height: 20px;
+  weight: 20px;
+  margin-right: 10px;
+}
