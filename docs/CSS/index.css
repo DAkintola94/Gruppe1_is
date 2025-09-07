@@ -208,6 +208,10 @@ section {
   transition: transform 1s ease, clip-path 1s ease;
 }
 
+.gruppemedlemmer p {
+  color: black;
+}
+
 .gruppemedlemmer-bilde {
   max-width: 10vw;
   height: auto;
