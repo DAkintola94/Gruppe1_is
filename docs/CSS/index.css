@@ -90,7 +90,7 @@ section {
   font-family: "Work Sans", sans-serif;
   font-weight: 700;
   font-size: 150px;
-  top: 49vh;
+  top: 37vh;
   left: 2vw;
 }
 .stor-overskrift {
@@ -108,6 +108,12 @@ section {
   column-width: 100vw;
   background-color: #f6f7f9;
   margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  #section2 {
+    height: auto;
+  }
 }
 
 .overskrifter {
@@ -168,6 +174,11 @@ section {
   background-color: #f6f7f9;
 }
 
+#phone_symbol {
+  width: 30px;
+  height: 25px;
+}
+
 .gruppemedlemmer-flex1 {
   display: flex;
   flex-direction: row;
@@ -218,8 +229,12 @@ section {
 }
 
 .section3-innhold {
-  margin-top: 4vh;
+  margin-top: 10vh;
   height: 90vh;
+}
+
+#titleName_Id {
+  font-weight: bold;
 }
 
 .medlemmer-link {
