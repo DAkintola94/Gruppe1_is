@@ -95,6 +95,12 @@ section {
   overflow: hidden;
 }
 
+@media (max-width: 768px) {
+  #elias-section2-bilde-container {
+    display: none;
+  }
+}
+
 #elias-section2-bilde {
   width: 100%;
   background-color: #b4b9b3;
