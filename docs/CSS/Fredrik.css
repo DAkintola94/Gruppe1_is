@@ -84,11 +84,7 @@ section {
 }
 
 @media (max-width: 768px) {
-  //prevent annoying scroll block on mobile, let user be able to actually click on the icons we created.
-  html,
-  body {
-    scroll-snap-type: none !important;
-  }
+  /* prevent annoying scroll block on mobile, let user be able to actually click on the icons we created. */
   section {
     scroll-snap-align: unset !important;
     scroll-snap-stop: unset !important;
@@ -101,7 +97,6 @@ section {
 }
 
 @media (max-width: 768px) {
-  /* prevent annoying scroll block on mobile, let user be able to actually click on the icons we created. */
   #fredrik-section2-bilde-container {
     display: none;
   }
