@@ -275,3 +275,10 @@ section {
     min-width: 300px;
   }
 }
+
+.Index-video{
+  width: 90vh;
+  height: auto;
+  border-radius:10px;
+  align-self: center;
+}
