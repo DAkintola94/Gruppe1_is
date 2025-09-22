@@ -26,10 +26,9 @@ section {
   column-width: 100vw;
   background-color: white;
   overflow-y: hidden;
-  background-image: url('../image/gruppe_bilde.jpg');  
+  background-image: url("../image/gruppe_bilde.jpg");
   background-size: cover;
 }
-
 
 .blur {
   height: 2vh;
@@ -153,8 +152,8 @@ section {
   top: 2vh;
   left: 0;
   opacity: 0;
-  transform: translateX(-100%); 
-  transition: transform 1.0s ease, opacity 1.0s ease;
+  transform: translateX(-100%);
+  transition: transform 1s ease, opacity 1s ease;
   width: 100%;
 }
 
@@ -280,7 +279,6 @@ section {
   color: black;
 }
 
-
 #section4 {
   background-color: black;
   color: white;
@@ -288,7 +286,7 @@ section {
   width: 100vw;
 }
 
-#section4-innhold{
+#section4-innhold {
   display: flex;
   flex-direction: column;
   width: 80vw;
@@ -297,7 +295,7 @@ section {
   margin-bottom: 10%;
 }
 
-#section4-overskrift{
+#section4-overskrift {
   flex: 1;
   display: flex;
   align-items: end;
@@ -316,8 +314,7 @@ section {
   padding: 0;
 }
 
-
-#section4-mine-proskjekter{
+#section4-mine-proskjekter {
   flex: 3;
   font-family: "Work Sans", sans-serif;
   font-size: 20px;
@@ -325,7 +322,7 @@ section {
   width: 100%;
 }
 
-.prosjekt-container{
+.prosjekt-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -335,9 +332,7 @@ section {
   gap: 20px;
 }
 
-
-
-.prosjekt-rad{
+.prosjekt-rad {
   display: flex;
 
   flex-direction: row;
@@ -348,12 +343,12 @@ section {
   gap: 20px;
 }
 
-.prosjekt-box{
+.prosjekt-box {
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   background-color: white;
   height: 100%;
   border-radius: 20px;
@@ -365,7 +360,7 @@ section {
   z-index: 10;
 }
 
-.prosjekt-bilde{
+.prosjekt-bilde {
   margin: 6px;
   flex: 2;
   width: 100%;
@@ -374,21 +369,19 @@ section {
   overflow: hidden;
 }
 
-.prosjekt-bilde img{
+.prosjekt-bilde img {
   width: 100%;
   height: auto;
 }
 
-.prosjekt-beskrivelse{
+.prosjekt-beskrivelse {
   flex: 1;
   height: 100%;
   width: 100%;
   text-align: center;
   font-family: "Work Sans", sans-serif;
   border-radius: 20px;
-
 }
-
 
 @media (max-width: 1000px) {
   .stor-overskrift {
