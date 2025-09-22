@@ -257,6 +257,110 @@ section {
   color: black;
 }
 
+
+#section4 {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+}
+
+#section4-innhold{
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  height: 90vh;
+  margin-left: 10vw;
+  margin-bottom: 10%;
+}
+
+#section4-overskrift{
+  flex: 1;
+  display: flex;
+  align-items: end;
+  justify-content: start;
+  width: 100%;
+  height: 100%;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 55px;
+  margin: 0;
+  letter-spacing: 0.1em;
+}
+
+#section4-overskrift h1 {
+  margin: 0;
+  padding: 0;
+}
+
+
+#section4-mine-proskjekter{
+  flex: 3;
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  height: 100%;
+  width: 100%;
+}
+
+.prosjekt-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  gap: 20px;
+}
+
+
+
+.prosjekt-rad{
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  gap: 20px;
+}
+
+.prosjekt-box{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  background-color: white;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.prosjekt-bilde{
+  margin: 6px;
+  flex: 2;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.prosjekt-bilde img{
+  width: 100%;
+  height: auto;
+}
+
+.prosjekt-beskrivelse{
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  border-radius: 20px;
+
+}
+
+
 @media (max-width: 1000px) {
   .stor-overskrift {
     font-size: 60%;
