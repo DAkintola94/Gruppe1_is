@@ -26,7 +26,7 @@ section {
   column-width: 100vw;
   background-color: white;
   overflow-y: hidden;
-  background-image: url('/docs/image/gruppe_bilde.jpg');  
+  background-image: url('../image/gruppe_bilde.jpg');  
   background-size: cover;
 }
 
@@ -139,7 +139,7 @@ section {
   font-family: "Work Sans", sans-serif;
   margin: 4%;
   margin-bottom: 0%;
-   overflow: hidden;
+  overflow: hidden;
 }
 
 .overskrifter h1 {
@@ -254,7 +254,7 @@ section {
 }
 
 .gruppemedlemmer:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   z-index: 10;
 }
 
