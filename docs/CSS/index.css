@@ -26,16 +26,10 @@ section {
   column-width: 100vw;
   background-color: white;
   overflow-y: hidden;
-  /*background-image: url("/docs/image/gruppe_bilde.jpg");*/
-  backgroud-size: 50px 50px;
+  background-image: url('/docs/image/gruppe_bilde.jpg');  
+  background-size: cover;
 }
 
-#group_picture {
-  width: auto;
-  max-width: auto;
-  min-width: auto;
-  height: auto;
-}
 
 .blur {
   height: 2vh;
@@ -57,7 +51,7 @@ section {
 .nav-bar {
   flex: 1;
   display: flex;
-  width: 25vw;
+  width: 32vw;
   justify-content: center;
   align-items: center;
   flex-direction: row;
@@ -76,6 +70,11 @@ section {
   font-family: "Segoe UI";
   border-radius: 100px;
   cursor: pointer;
+}
+
+.nav-item.active {
+  background-color: #e5c70663;
+  color: #e5c806;
 }
 
 .nav-item:hover {
@@ -99,14 +98,15 @@ section {
   font-family: "Work Sans", sans-serif;
   font-weight: 700;
   font-size: 150px;
-  top: 50vh;
+  top: 55vh;
   left: 2vw;
 }
 .stor-overskrift {
   margin-top: -45vh;
   font-size: 110%;
   margin-bottom: 40vh;
-  color: #d5802aff;
+  color: black;
+  background-color: white;
 }
 
 #section2 {
@@ -139,6 +139,7 @@ section {
   font-family: "Work Sans", sans-serif;
   margin: 4%;
   margin-bottom: 0%;
+   overflow: hidden;
 }
 
 .overskrifter h1 {
@@ -147,10 +148,32 @@ section {
   margin: 0;
 }
 
+.ord {
+  position: absolute;
+  top: 2vh;
+  left: 0;
+  opacity: 0;
+  transform: translateX(-100%); 
+  transition: transform 1.0s ease, opacity 1.0s ease;
+  width: 100%;
+}
+
+.ord.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.ord.hide {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
 .om-gruppa-del {
   margin: 2%;
   margin-top: 0%;
   background-color: white;
+  color: rgb(37, 37, 37);
+  line-height: 1.5;
   border-radius: 20px;
   font-family: "Work Sans", sans-serif;
   flex: 3;
@@ -334,6 +357,12 @@ section {
   background-color: white;
   height: 100%;
   border-radius: 20px;
+  transition: transform 1s ease, clip-path 1s ease;
+}
+
+.prosjekt-box:hover {
+  transform: scale(1.05);
+  z-index: 10;
 }
 
 .prosjekt-bilde{
