@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Contact.css" />
+    <link rel="icon" href="../image/group-svgrepo-com.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../CSS/index.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+    crossorigin="anonymous">
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
+     crossorigin="anonymous"></script>
+
+     <script src="../JS/email.js"></script>
+     <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "DPThd7Dzs8k_N_jaa",
+      });
+   })();
+</script>
+
+    <title>Kontakt oss</title>
+</head>
+
+<body>
+     <div class="nav-bar-container">
+        <div class="blur"></div>
+            <div class="nav-bar">
+                <a class="nav-item active" href="../index.html#section1">Hjem</a>
+                <a class="nav-item active" href="../index.html#section3">Medlemmer</a>
+            </div>
+    </div>
+
+    <div class="main_contact">
+        <div class="container border py-5 bg-light">
+            <div class="row">
+                <div class="col-md-6 p-5 bg-primary text-white">
+                    <h1> Kontakt informasjon </h1>
+                    <img id="phone_icon" src="../image/mobile_phone_14388.png" title="phone"/> 95070589
+                    <br>
+                    <img title="email" src="../image/gmail.svg" id="gmail_icon" /> fredericohusebo@gmail.com    
+                </div>
+                <div class="col-md-6 py-3">
+                    <h1>Email</h1>
+                    <div class="form-group">
+                        <h5 for="name">Navn</h5>
+                        <input class="form-control" type="text" id="name" placeholder="Ditt navn"/>
+                    </div>
+
+                    <div class="form-group">
+                        <h5 for="email">Mail</h5>
+                        <input class="form-control" type="email" id="email" placeholder="Alpha@bravo.com"/>
+                    </div>
+
+                    <div class="form-group">
+                        <h5 for="message">Melding</h5>
+                        <textarea class="form-control " row="3" id="message" placeholder="Melding..."> </textarea>
+                    </div>
+                    <button onclick="sendEmail()" class="btn btn-primary m-2">Send</button>
+
+                </div>
+            </div>    
+        </div>
+    </div>
+
+
+</body>
+</html>

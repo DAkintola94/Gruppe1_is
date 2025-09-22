@@ -55,6 +55,14 @@ section {
   justify-content: start;
 }
 
+@media (max-width: 768px) {
+  /* prevent annoying scroll block on mobile, let user be able to actually click on the icons we created. */
+  section {
+    scroll-snap-align: unset !important;
+    scroll-snap-stop: unset !important;
+  }
+}
+
 #dennis-section2-overskrift {
   flex: 1;
   font-family: "Work Sans", sans-serif;
@@ -77,8 +85,8 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
   border-radius: 20px;
   overflow: hidden;
 }
@@ -86,6 +94,12 @@ section {
 #dennis-section2-bilde {
   width: 100%;
   background-color: #b4b9b3;
+}
+
+@media (max-width: 768px) {
+  #dennis-section2-bilde-container {
+    display: none !important;
+  }
 }
 
 #dennis-section2-om-meg {

@@ -1,12 +1,12 @@
 html {
   scroll-behavior: smooth;
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 body {
   background-color: white;
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -53,7 +53,7 @@ section {
   align-items: center;
   flex-direction: row;
   border-radius: 100px;
-  background-color: black ;
+  background-color: black;
   overflow: hidden;
 }
 
@@ -68,8 +68,6 @@ section {
   border-radius: 100px;
   cursor: pointer;
 }
-
-
 
 .nav-item:hover {
   color: #e5c806;
@@ -92,7 +90,7 @@ section {
   font-family: "Work Sans", sans-serif;
   font-weight: 700;
   font-size: 150px;
-  top: 49vh;
+  top: 50vh;
   left: 2vw;
 }
 .stor-overskrift {
@@ -110,6 +108,12 @@ section {
   column-width: 100vw;
   background-color: #f6f7f9;
   margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  #section2 {
+    height: auto;
+  }
 }
 
 .overskrifter {
@@ -167,15 +171,19 @@ section {
   flex-direction: column;
   height: 100vh;
   column-width: 100vw;
-  background-color: #f6f7f9;
+  background-color: #feffde;
+}
 
+#phone_symbol {
+  width: 30px;
+  height: 25px;
 }
 
 .gruppemedlemmer-flex1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 5vw;
+  gap: 2vw;
   margin-left: 10vw;
   margin-right: 10vw;
   margin-bottom: 5vh;
@@ -188,16 +196,21 @@ section {
   margin-left: 5vw;
   margin-right: 5vw;
   margin-bottom: 5vh;
-  gap: 5vw;
+  gap: 2vw;
 }
 .gruppemedlemmer {
   max-width: 30vw;
+  min-width: 27vw;
   width: 30vw;
   min-height: 35vh;
-  background: white;
+  background: #fdfde3;
   text-align: center;
   border-radius: 15px;
   transition: transform 1s ease, clip-path 1s ease;
+}
+
+.gruppemedlemmer p {
+  color: black;
 }
 
 .gruppemedlemmer-bilde {
@@ -212,12 +225,12 @@ section {
   z-index: 10;
 }
 
-
-.gruppemedlemmer-text-om-hver-person{
+.gruppemedlemmer-text-om-hver-person {
   margin-left: 1vh;
   margin-right: 1vh;
   margin-bottom: 4px;
   margin-top: 0;
+  color: black;
 }
 
 .section3-innhold {
@@ -229,10 +242,11 @@ section {
   font-weight: bold;
 }
 
-.medlemmer-link{
+.medlemmer-link {
   text-decoration: none;
   color: black;
 }
+
 
 #section4 {
   background-color: black;
@@ -336,6 +350,7 @@ section {
 
 }
 
+
 @media (max-width: 1000px) {
   .stor-overskrift {
     font-size: 60%;
@@ -365,3 +380,15 @@ section {
     min-width: 300px;
   }
 }
+
+.Index-video{
+  width: 90vh;
+  height: auto;
+  border-radius:10px;
+  align-self: center;
+}
+
+.section3-linkedin{
+  max-width: 2vw;
+  height: auto;
+} 
