@@ -14,17 +14,19 @@ section {
   height: 100vh;
   column-width: 100vw;
   background-color: white;
+  background-image: url('../image/Fredrik/f40f21af-81c0-4a88-be17-3bb4ecf79eac\ \(1\).jpg');
+  background-size: cover;
   overflow: hidden;
 }
 #fredrik-overskrift {
   position: relative;
-  color: black;
+  color: rgb(213, 213, 213);
   font-family: "Work Sans", sans-serif;
   font-weight: 800;
   font-size: 180px;
   letter-spacing: 0.3em;
   font-stretch: expanded;
-  top: -57vh;
+  top: 30vh;
 }
 
 @media (max-width: 768px) {
