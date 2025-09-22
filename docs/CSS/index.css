@@ -171,7 +171,7 @@ section {
   flex-direction: column;
   height: 100vh;
   column-width: 100vw;
-  background-color: #f6f7f9;
+  background-color: #feffde;
 }
 
 #phone_symbol {
@@ -183,7 +183,7 @@ section {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 5vw;
+  gap: 2vw;
   margin-left: 10vw;
   margin-right: 10vw;
   margin-bottom: 5vh;
@@ -196,13 +196,14 @@ section {
   margin-left: 5vw;
   margin-right: 5vw;
   margin-bottom: 5vh;
-  gap: 5vw;
+  gap: 2vw;
 }
 .gruppemedlemmer {
   max-width: 30vw;
+  min-width: 27vw;
   width: 30vw;
   min-height: 35vh;
-  background: white;
+  background: #fdfde3;
   text-align: center;
   border-radius: 15px;
   transition: transform 1s ease, clip-path 1s ease;
@@ -282,3 +283,8 @@ section {
   border-radius:10px;
   align-self: center;
 }
+
+.section3-linkedin{
+  max-width: 2vw;
+  height: auto;
+} 
