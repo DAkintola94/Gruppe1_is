@@ -31,7 +31,6 @@ section {
   background-size: cover;
 }
 
-
 .blur {
   height: 2vh;
   width: 100vw;
@@ -154,8 +153,8 @@ section {
   top: 2vh;
   left: 0;
   opacity: 0;
-  transform: translateX(-100%); 
-  transition: transform 1.0s ease, opacity 1.0s ease;
+  transform: translateX(-100%);
+  transition: transform 1s ease, opacity 1s ease;
   width: 100%;
 }
 
@@ -284,7 +283,6 @@ section {
   color: black;
 }
 
-
 #section4 {
   background-color: black;
   color: white;
@@ -292,7 +290,7 @@ section {
   width: 100vw;
 }
 
-#section4-innhold{
+#section4-innhold {
   display: flex;
   flex-direction: column;
   width: 80vw;
@@ -301,7 +299,23 @@ section {
   margin-bottom: 10%;
 }
 
-#section4-overskrift{
+#section5 {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+}
+
+#section5-innhold {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  height: 90vh;
+  margin-left: 10vw;
+  margin-bottom: 10%;
+}
+
+#section4-overskrift {
   flex: 1;
   display: flex;
   align-items: end;
@@ -320,8 +334,28 @@ section {
   padding: 0;
 }
 
+#section5-overskrift {
+  flex: 1;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  width: 100%;
+  height: 100%;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 55px;
+  margin: 0;
+  letter-spacing: 0.1em;
+}
 
-#section4-mine-proskjekter{
+#section5-overskrift h1 {
+  margin: 0;
+  padding: 0;
+  margin-top: 10vh;
+  margin-left: 25vh;
+}
+
+#section4-mine-proskjekter {
   flex: 3;
   font-family: "Work Sans", sans-serif;
   font-size: 20px;
@@ -329,7 +363,15 @@ section {
   width: 100%;
 }
 
-.prosjekt-container{
+#section5-mine-proskjekter {
+  flex: 3;
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  height: 100%;
+  width: 100%;
+}
+
+.prosjekt-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -339,11 +381,18 @@ section {
   gap: 20px;
 }
 
-
-
-.prosjekt-rad{
+.section5-prosjekt-container {
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 20%;
+  height: 10%;
+  gap: 0px;
+}
 
+.prosjekt-rad {
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -352,12 +401,12 @@ section {
   gap: 20px;
 }
 
-.prosjekt-box{
+.prosjekt-box {
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   background-color: white;
   height: 100%;
   border-radius: 20px;
@@ -369,7 +418,7 @@ section {
   z-index: 10;
 }
 
-.prosjekt-bilde{
+.prosjekt-bilde {
   margin: 6px;
   flex: 2;
   width: 100%;
@@ -378,21 +427,19 @@ section {
   overflow: hidden;
 }
 
-.prosjekt-bilde img{
+.prosjekt-bilde img {
   width: 100%;
   height: auto;
 }
 
-.prosjekt-beskrivelse{
+.prosjekt-beskrivelse {
   flex: 1;
   height: 100%;
   width: 100%;
   text-align: center;
   font-family: "Work Sans", sans-serif;
   border-radius: 20px;
-
 }
-
 
 @media (max-width: 1000px) {
   .stor-overskrift {
@@ -434,4 +481,34 @@ section {
 .section3-linkedin {
   max-width: 2vw;
   height: auto;
+}
+
+#github_icon {
+  height: 20vh;
+  width: 20vw;
+}
+
+#git_icon {
+  height: 3vh;
+  width: 2.5vw;
+}
+
+#world_web {
+  height: 3vh;
+  width: 3vw;
+}
+
+.video_section {
+  height: 50vh;
+  width: 100%;
+  /*align-items: center;*/
+  justify-content: center;
+  display: flex;
+}
+
+#project_video {
+  height: auto;
+  width: 50vw;
+  border-radius: 10px;
+  align-self: center;
 }

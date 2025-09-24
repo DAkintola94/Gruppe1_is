@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => { 
   const items = [...document.querySelectorAll('.ord')];
   let current = 0;
   const displayTime = 5000; // hvor lenge ett ord er synlig (ms)
