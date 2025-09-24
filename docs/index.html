@@ -9,6 +9,19 @@
     <link rel="stylesheet" href="CSS/index.css" />
     <script src="JS/ordAnimasjon.js"></script>
     <script src="JS/navBar.js"></script>
+
+
+     <script src="JS/email.js"></script>
+     <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init({
+            publicKey: "DPThd7Dzs8k_N_jaa",
+        });
+    })();
+    </script>
     
 </head>
 <body>
@@ -24,7 +37,7 @@
         <a class="nav-item" href="#section2">Om oss</a>
         <a class="nav-item" href="#section3">Medlemmer</a>
         <a class="nav-item" href="#section4">Prosjekter</a>
-        <a class="nav-item" href="Gutta/Contact.html">Kontakt</a>
+        <a class="nav-item" href="#section5">Kontakt</a>
     </div>
 </div>
 
@@ -218,6 +231,40 @@
         </div>
 
         </div>
+    </section>
+
+    <section id="section5">
+        <div class="main_contact">
+            <div class="container border py-5 bg-light">
+                <div class="row">
+                    <div class="col-md-6 p-5 bg-primary text-white">
+                        <h1> Kontakt informasjon </h1>
+                        <img id="phone_icon" src="image/mobile_phone_14388.png" title="phone"/> 95070589
+                        <br>
+                        <img title="email" src="image/gmail.svg" id="gmail_icon" /> fredericohusebo@gmail.com    
+                    </div>
+                    <div class="col-md-6 py-3">
+                        <h1>Email</h1>
+                        <div class="form-group">
+                            <h5 for="name">Navn</h5>
+                            <input class="form-control" type="text" id="name" placeholder="Ditt navn" required/>
+                        </div>
+
+                        <div class="form-group">
+                            <h5 for="email">Mail</h5>
+                            <input class="form-control" type="email" id="email" placeholder="Alpha@bravo.com" required/>
+                        </div>
+
+                        <div class="form-group">
+                            <h5 for="message">Melding</h5>
+                            <textarea class="form-control " row="3" id="message" placeholder="Melding..." required> </textarea>
+                        </div>
+                        <button onclick="sendEmail()" class="btn btn-primary m-2">Send</button>
+
+                    </div>
+                </div>    
+            </div>
+        </div>        
     </section>
 </main>
 </div>

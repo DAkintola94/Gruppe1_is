@@ -173,6 +173,7 @@ section {
   margin: 2%;
   margin-top: 0%;
   background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   color: rgb(37, 37, 37);
   line-height: 1.5;
   border-radius: 20px;
@@ -434,4 +435,42 @@ section {
 .section3-linkedin {
   max-width: 2vw;
   height: auto;
+}
+
+
+.main_contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: auto;
+  min-height: 100vh;
+}
+
+h3 {
+  color: #3e7344;
+  padding-top: 5vh;
+}
+
+.child_contact {
+  padding: 40px;
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  text-align: left;
+}
+
+#gmail_icon {
+  height: 20px;
+  weight: 20px;
+  margin-right: 10px;
+}
+
+#phone_icon {
+  height: 20px;
+  weight: 20px;
+  margin-right: 10px;
 }
