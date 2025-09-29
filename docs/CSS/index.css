@@ -26,7 +26,7 @@ section {
   column-width: 100vw;
   background-color: white;
   overflow-y: hidden;
-  background-image: url('../image/gruppe_bilde.jpg');  
+  background-image: url("../image/gruppe_bilde.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -418,7 +418,7 @@ section {
 
 .Index-video {
   width: 100%;
-  height: auto;
+  height: 100%;
   border-radius: 10px;
   align-self: center;
 }
