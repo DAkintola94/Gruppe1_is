@@ -442,18 +442,3 @@ section {
   height: 3vh;
   width: 3vw;
 }
-
-.video_section {
-  height: 50vh;
-  width: 100%;
-  /*align-items: center;*/
-  justify-content: center;
-  display: flex;
-}
-
-#project_video {
-  height: auto;
-  width: 50vw;
-  border-radius: 10px;
-  align-self: center;
-}
