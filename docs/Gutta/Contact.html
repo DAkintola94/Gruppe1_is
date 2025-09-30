@@ -49,20 +49,23 @@
                     <img title="email" src="../image/gmail.svg" id="gmail_icon" /> fredericohusebo@gmail.com    
                 </div>
                 <div class="col-md-6 py-3">
-                    <h1>Email</h1>
+                     <div class="form-group">
+                        <h5 for="company">Bedrift</h5>
+                        <input class="form-control" type="text" id="company" placeholder="" title="Bedrift_navn"/>
+                    </div>
                     <div class="form-group">
-                        <h5 for="name">Navn</h5>
-                        <input class="form-control" type="text" id="name" placeholder="Ditt navn"/>
+                        <h5 for="name">Ditt navn</h5>
+                        <input class="form-control" type="text" id="name" placeholder="" title="avsender"/>
                     </div>
 
                     <div class="form-group">
                         <h5 for="email">Mail</h5>
-                        <input class="form-control" type="email" id="email" placeholder="Alpha@bravo.com"/>
+                        <input class="form-control" type="email" id="email" placeholder="" title="bruker_email" />
                     </div>
 
                     <div class="form-group">
                         <h5 for="message">Melding</h5>
-                        <textarea class="form-control " row="3" id="message" placeholder="Melding..."> </textarea>
+                        <textarea class="form-control " row="4" id="message" placeholder="Melding..."> </textarea>
                     </div>
                     <button onclick="sendEmail()" class="btn btn-primary m-2">Send</button>
 
