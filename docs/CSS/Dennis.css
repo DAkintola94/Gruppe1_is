@@ -183,12 +183,10 @@ section {
 
 .section3-prosjekt-container {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  width: 20%;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 40%;
   height: 10%;
-  gap: 0px;
 }
 
 #project_video {
@@ -203,4 +201,14 @@ section {
   /*align-items: center;*/
   align-self: center;
   border-radius: 100px;
+}
+
+#git_icon {
+  height: 3vh;
+  width: 2.5vw;
+}
+
+#world_web {
+  height: 3vh;
+  width: 3vw;
 }
