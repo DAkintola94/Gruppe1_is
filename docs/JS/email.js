@@ -35,7 +35,7 @@ function sendEmail() {
     const templateID = "template_bchugar";
 
     // Disable button during submission
-    const button = document.querySelector(".btn.btn-primary");
+    const button = document.querySelector("form button[type='submit']");
     button.disabled = true;
 
     emailjs.send(serviceID, templateID, paramsValue)
