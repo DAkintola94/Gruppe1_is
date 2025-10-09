@@ -151,3 +151,94 @@ section {
   width: 7.5vh;
 }
 
+#fredrik-section3 {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+}
+
+#fredrik-section3-innhold{
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  height: 100vh;
+  margin-left: 10vw;
+}
+
+#fredrik-section3-overskrift{
+  flex: 1;
+  display: flex;
+  align-items: end;
+  justify-content: start;
+  width: 100%;
+  height: 100%;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  margin: 0;
+  letter-spacing: 0.1em;
+}
+
+#fredrik-section3-overskrift h1 {
+  margin: 0;
+  padding: 0;
+}
+
+
+#fredrik-section3-mine-proskjekter{
+  flex: 2;
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  height: 100%;
+  width: 100%;
+}
+
+.prosjekt-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+  gap: 20px;
+}
+
+.prosjekt-box{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  background-color: white;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.prosjekt-bilde{
+  flex: 2;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.prosjekt-bilde img{
+  width: 100%;
+  height: 100%;
+}
+
+.prosjekt-beskrivelse{
+  flex: 1;
+  height: 100%;
+  width: 95%;
+  text-align: start;
+  font-family: "Work Sans", sans-serif;
+  border-radius: 20px;
+  font-size: 16px;
+  margin: 3%;
+  color: rgb(81, 81, 81);
+  line-height: 1.5;
+
+}
+
+
