@@ -49,13 +49,13 @@ section {
 #fredrik-section2{
   width: 100vw;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding-top: 1%;
 }
 
 .fredrik-section-container {
-  margin: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
   padding: 10px;
   height: 84%;
   width: 80%;
@@ -89,8 +89,8 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: auto;
   border-radius: 20px;
   overflow: hidden;
 }
@@ -104,8 +104,10 @@ section {
 }
 
 #fredrik-section2-bilde {
-  width: 100%;
+  width: 85%;
+  height: auto;
   background-color: #b4b9b3;
+  border-radius: 10px;
 }
 
 @media (max-width: 768px) {
@@ -243,5 +245,14 @@ section {
   align-items: center;
   justify-content: center;
   width: 100%;
+}
+
+#fredrik-flex{
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-bar-container{
+  position: fixed;
 }
 
