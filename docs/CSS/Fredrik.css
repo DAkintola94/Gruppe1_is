@@ -14,7 +14,7 @@ section {
   height: 100vh;
   column-width: 100vw;
   background-color: white;
-  background-image: url('../image/Fredrik/f40f21af-81c0-4a88-be17-3bb4ecf79eac\ \(1\).jpg');
+  background-image: url('../image/Fredrik/Fredrikdress.jpg');
   background-position: center;
   background-size: cover;
   overflow: hidden;
@@ -149,110 +149,5 @@ section {
 #github_svg {
   height: 15vh;
   width: 7.5vh;
-}
-
-
-#fredrik-section3 {
-  background-color: black;
-  color: white;
-  height: 100vh;
-  width: 100vw;
-}
-
-#fredrik-section3-innhold{
-  display: flex;
-  flex-direction: column;
-  width: 80vw;
-  height: 100vh;
-  margin-left: 10vw;
-}
-
-#fredrik-section3-overskrift{
-  flex: 1;
-  display: flex;
-  align-items: end;
-  justify-content: start;
-  width: 100%;
-  height: 100%;
-  font-family: "Work Sans", sans-serif;
-  font-weight: 700;
-  font-size: 60px;
-  margin: 0;
-  letter-spacing: 0.1em;
-}
-
-#fredrik-section3-overskrift h1 {
-  margin: 0;
-  padding: 0;
-}
-
-
-#fredrik-section3-mine-proskjekter{
-  flex: 2;
-  font-family: "Work Sans", sans-serif;
-  font-size: 20px;
-  height: 100%;
-  width: 100%;
-}
-
-.prosjekt-container{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  gap: 20px;
-}
-
-.prosjekt-box{
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; 
-  background-color: white;
-  height: 100%;
-  border-radius: 20px;
-}
-
-.prosjekt-bilde{
-  margin: 6px;
-  flex: 2;
-  width: 100%;
-  height: 100%;
-  border-radius: 20px;
-  overflow: hidden;
-}
-
-.prosjekt-bilde img{
-  width: 100%;
-  height: auto;
-}
-
-.prosjekt-beskrivelse{
-  flex: 1;
-  height: 100%;
-  width: 100%;
-  text-align: center;
-  font-family: "Work Sans", sans-serif;
-  border-radius: 20px;
-
-}
-
-#fredrik-section3-se-også{
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
-
-#fredrik-flex{
-  display: flex;
-  flex-direction: column;
-}
-
-.nav-bar-container{
-  position: fixed;
 }
 

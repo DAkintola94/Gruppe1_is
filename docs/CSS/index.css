@@ -59,28 +59,42 @@ section {
   background-color: black;
   overflow: hidden;
   font-size: 20px;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+
 }
 
 .nav-item {
   flex: 1;
   text-align: center;
-  background-color: black;
   padding: 10px;
-  color: white;
   font-weight: bold;
   font-family: "Work Sans", sans-serif;
   border-radius: 100px;
   cursor: pointer;
+  color: rgba(255, 255, 255, 0.874);
+  text-decoration: none;
+  transition: color 0.3s ease;
+  z-index: 2;
 }
 
 .nav-item.active {
-  background-color: #258cfb;
-  color: black;
+  background: rgba(25, 0, 255, 0.525);
+  border-radius: 50px;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .nav-item:hover {
-  background-color: lightskyblue;
-  color: black;
+  color: rgb(255, 255, 255);
+  text-shadow: 
+      0 0 10px rgba(255, 255, 255, 0.2),
+      0 0 20px rgba(255, 255, 255, 0.1);
 }
 
 .radial-circle {
@@ -461,13 +475,13 @@ h3 {
 
 #gmail_icon {
   height: 20px;
-  weight: 20px;
+  font-weight: 20px;
   margin-right: 10px;
 }
 
 #phone_icon {
   height: 20px;
-  widtht: 20px;
+  width: 20px;
   margin-right: 10px;}
 
 #github_icon {
@@ -589,8 +603,8 @@ h3 {
   }
 
   .btn {
-    background-color: #258cfb;
-    color: black;
+    background: #2a1ca3;
+    color: white;
     font-weight: 600;
     border: none;
     padding: 10px 20px;
@@ -601,7 +615,7 @@ h3 {
   }
 
   .btn:hover {
-    background-color: lightskyblue;
+    background-color: #3f2bf0;
     transform: scale(1.05);
   }
 
