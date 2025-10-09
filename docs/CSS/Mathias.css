@@ -44,8 +44,9 @@ section {
 }
 
 .mathias-section-container {
-  margin: 10%;
-  padding-top: 12vh;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 5%;
   height: 84%;
   width: 80%;
   display: flex;
@@ -66,6 +67,7 @@ section {
 
 #mathias-section2-innhold {
   flex: 1;
+  padding-top: 5%;
   display: flex;
   flex-direction: column;
   align-items: start;

@@ -45,7 +45,8 @@ section {
 }
 
 .aaron-section-container {
-  margin: 10%;
+  margin-left: 10%;
+  margin-right:10%;
   padding-top: 12vh;
   height: 84%;
   width: 80%;
